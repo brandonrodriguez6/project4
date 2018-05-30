@@ -1,6 +1,10 @@
 body {
-	background-color: #D1D1D1;
+	background-color: #B8B6AD;
 	font-family: Helvetica;
+}
+p {
+	font-size: 34px;
+	font-family; Helvetica;
 }
 li a {
     display: block;
@@ -42,6 +46,10 @@ li {
 	grid-column-end: span 2;
 }
 .c {
-	grid-column-start: 2;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+}
+.d {
+	grid-column-start: 1;
 	grid-column-end: span 2;
 }
